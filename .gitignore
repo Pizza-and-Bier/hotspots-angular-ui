@@ -1,0 +1,21 @@
+
+/dist
+/.tmp
+/.sass-cache
+/bower_components
+### Yeoman template
+node_modules/
+*.log
+
+build/
+dist/
+
+.idea/*
+.bowerrc
+.editorconfig
+.gitattributes
+.jshintrc
+.jscsrc
+.yo-rc.json
+*.DS_Store
+

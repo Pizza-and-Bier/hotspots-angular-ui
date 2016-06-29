@@ -1,0 +1,8 @@
+<div style="float: left;">I like to eat pie</div>
+
+<img ng-click="vm.addPoint($event)" ng-src="{{vm.hotspotImageSource}}"/>
+<div class="points-wrapper">
+    <div>X: {{vm.point.x}}</div>
+    <div>Y: {{vm.point.y}}</div>
+</div>
+<slider ng-model="vm.sliderValue" min="1" max="100" step="1"></slider>
